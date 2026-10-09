@@ -7,7 +7,7 @@ view: billion_orders {
   }
   dimension: order_id {
     type: number
-    hidden: yes
+    hidden: no
     sql: ${TABLE}.order_id ;;
   }
   dimension: order_price {
